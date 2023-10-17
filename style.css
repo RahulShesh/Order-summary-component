@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.image{
+    background-image: url(images/pattern-background-desktop.svg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    
+}
+.blue{
+    background-color:   hsl(225, 100%, 94%);
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.8;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 320px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow:0px 20px 10px hsl(225, 43%, 90%);
+}
+.hero img{
+    width: 320px;
+}
+.info{
+    padding: 25px;
+}
+.ordersummary{
+    margin-top: 10px;
+    color: hsl(223, 47%, 23%);
+}
+.passinfo{
+    margin-top: 20px;
+}
+.passinfo p{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+.musicicon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.annualplan{
+    margin-right: 40px;
+}
+.annualplan h3{
+font-size: 14px;
+color: hsl(223, 47%, 23%);
+   
+}
+.change a:hover{
+    text-decoration: none;
+}
+.annualplan p{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+.musicinfo{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-top: 20px;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom :30px;
+    background-color: hsl(245, 75%, 52%);
+    height: 40px;
+    width: 270px;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    box-shadow:0px 10px 30px  hsl(225, 43%, 70%);
+}
+button:hover{
+    background-color:hsl(245, 74%, 63%);
+}
